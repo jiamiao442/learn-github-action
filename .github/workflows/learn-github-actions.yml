@@ -2,7 +2,7 @@ name: learn-github-actions
 on: 
   push:
     paths:
-      - 'learn-github-actions.yml'
+      - '.github/workflows/learn-github-actions.yml'
 
 jobs:
   check-bats-version:
